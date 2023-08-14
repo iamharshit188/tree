@@ -1,6 +1,13 @@
 # Device tree for Redmi note 11/11NFC 
 All of the Device trees I use for my Build is linked here : 
 This included the one's I use as reference and the ones I use for building.
+
+### spes Redmi note 11 trees I use in my Builds
+- git clone git@github.com:iamharshit188/device_xiaomi_spes.git
+- git clone https://github.com/iamharshit188/device_xiaomi_spes.git
+
+
+
 ### spes device tree dependencies:
 - git clone git@github.com:PixelExperience-Devices/device_xiaomi_spes.git device/xiaomi/spes
 - git clone git@github.com:PixelExperience-Devices/device_xiaomi_spes-kernel.git device/xiaomi/spes-kernel
