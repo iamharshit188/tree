@@ -5,6 +5,11 @@ CLEAR="\e[0m"
 
 echo -e "${GREEN} Updating repos for spes ${CLEAR}"
 
+echo -e "${RED} WARNING! ONLY TO BE RUN FROM A ANDROID WORKING DIRECTORY. THIS SCRIPT USES RELATIVE PATHS ${CLEAR}"
+echo ""
+echo -e "${RED} WARNING! ONLY TO BE USED WITH SKYLINEUI ${CLEAR}"
+echo -e "${RED} WARNING! THESE ARE EXTREMELY SLIMMED DOWN FETCHES DUE TO SKYLINEUI HAVING MANY REPOS INCLUDED ALREADY. PLEASE DM https://t.me/PugzAreCute FOR HELP WITH A ROM-ANGONISTIC SCRIPT ${CLEAR}"
+
 cd device/qcom/common && git pull && cd ../../..
 cd device/qcom/common-sepolicy && git pull && cd ../../..
 cd device/qcom/qssi && git pull && cd ../../..

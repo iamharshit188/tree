@@ -6,7 +6,10 @@ CLEAR="\e[0m"
 
 echo -e "${GREEN} Cloning repos for spes ${CLEAR}"
 
-# rm -rf external/wpa_supplicant_8
+echo -e "${RED} WARNING! ONLY TO BE RUN FROM A ANDROID WORKING DIRECTORY. THIS SCRIPT USES RELATIVE PATHS ${CLEAR}"
+echo ""
+echo -e "${RED} WARNING! ONLY TO BE USED WITH SKYLINEUI ${CLEAR}"
+echo -e "${RED} WARNING! THESE ARE EXTREMELY SLIMMED DOWN FETCHES DUE TO SKYLINEUI HAVING MANY REPOS INCLUDED ALREADY. PLEASE DM https://t.me/PugzAreCute FOR HELP WITH A ROM-ANGONISTIC SCRIPT ${CLEAR}"
 
 git clone https://github.com/PixelExperience-Devices/device_qcom_common.git device/qcom/common -b fourteen
 git clone https://github.com/PixelExperience-Devices/device_qcom_common-sepolicy.git device/qcom/common-sepolicy -b fourteen
