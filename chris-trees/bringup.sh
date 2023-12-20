@@ -26,17 +26,9 @@ git clone https://github.com/PixelExperience-Devices/kernel_xiaomi_sm6225.git ke
 git clone https://gitlab.pixelexperience.org/android/vendor-blobs/vendor_xiaomi_spes.git vendor/xiaomi/spes  -b fourteen
 git clone https://gitlab.pixelexperience.org/android/vendor-blobs/vendor_xiaomi_sm6225-common.git vendor/xiaomi/sm6225-common  -b fourteen
 git clone https://github.com/PixelExperience/hardware_xiaomi hardware/xiaomi -b fourteen
-# git clone https://github.com/AOSPA/android_external_wpa_supplicant_8.git external/wpa_supplicant_8 -b uvite
 # git clone https://github.com/AOSPA/android_device_xiaomi_sepolicy device/xiaomi/sepolicy -b uvite
 
-cp hardware/qcom-caf/common/os_pickup.mk hardware/qcom-caf/bengal/Android.mk
-cp hardware/qcom-caf/common/os_pickup_qssi.bp hardware/qcom-caf/bengal/Android.bp
+#cp hardware/qcom-caf/common/os_pickup.mk hardware/qcom-caf/bengal/Android.mk
+#cp hardware/qcom-caf/common/os_pickup_qssi.bp hardware/qcom-caf/bengal/Android.bp
 
-#cd external/wpa_supplicant_8
-#echo -e "${GREEN} Patching WPA_SUPPLICANT for spes ${CLEAR}"
-#git apply ../../device/xiaomi/spes/patches/e0b344c1a52181d93ecfc8212c02a71a8c5a871b.patch
-#git apply ../../device/xiaomi/spes/patches/5ca84d84d6752aecada9b843fedcec1f7f341bfb.patch
-#cd ../..
-#echo -e "${RED} JANK FIX. See if it can be fixed ${CLEAR}"
-#rm -rf device/qcom/vendor-common/commonsys/fm
 echo -e "${GREEN} Done cloning repos for spes ${CLEAR}"
