@@ -12,7 +12,6 @@ cd device/qcom/vendor-common && git pull && cd ../../..
 cd device/qcom/wlan && git pull && cd ../../..
 cd vendor/qcom/common && git pull && cd ../../..
 cd vendor/qcom/opensource/commonsys-intf/bluetooth && git pull && cd ../../../../..
-cd vendor/qcom/opensource/core-utils && git pull && cd ../../../..
 cd vendor/qcom/opensource/commonsys/dpm && git pull && cd ../../../../..
 cd device/xiaomi/sm6225-common && git pull && cd ../../..
 cd kernel/xiaomi/sm6225  && git pull && cd ../../..
