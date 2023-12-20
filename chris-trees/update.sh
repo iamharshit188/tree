@@ -22,6 +22,5 @@ cd device/xiaomi/spes && git pull && cd ../../..
 cd kernel/xiaomi/sm6225  && git pull && cd ../../..
 cd vendor/xiaomi/spes  && git pull && cd ../../..
 cd vendor/xiaomi/sm6225-common  && git pull && cd ../../..
-cd hardware/xiaomi && git pull && cd ../..
 
 echo -e "${GREEN} Done updating repos for spes ${CLEAR}"

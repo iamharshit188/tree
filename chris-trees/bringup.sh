@@ -24,7 +24,6 @@ git clone https://github.com/iamharshit188/device_xiaomi_sm6225-common-chris.git
 git clone https://github.com/PixelExperience-Devices/kernel_xiaomi_sm6225.git kernel/xiaomi/sm6225  -b fourteen
 git clone https://gitlab.pixelexperience.org/android/vendor-blobs/vendor_xiaomi_spes.git vendor/xiaomi/spes  -b fourteen
 git clone https://gitlab.pixelexperience.org/android/vendor-blobs/vendor_xiaomi_sm6225-common.git vendor/xiaomi/sm6225-common  -b fourteen
-git clone https://github.com/PixelExperience/hardware_xiaomi hardware/xiaomi -b fourteen
 # git clone https://github.com/AOSPA/android_device_xiaomi_sepolicy device/xiaomi/sepolicy -b uvite
 
 echo -e "${GREEN} Done cloning repos for spes ${CLEAR}"
