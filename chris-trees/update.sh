@@ -14,16 +14,10 @@ cd vendor/qcom/common && git pull && cd ../../..
 cd vendor/qcom/opensource/commonsys-intf/bluetooth && git pull && cd ../../../../..
 cd vendor/qcom/opensource/core-utils && git pull && cd ../../../..
 cd vendor/qcom/opensource/commonsys/dpm && git pull && cd ../../../../..
-cd hardware/qcom-caf/bengal/audio && git pull && cd ../../../..
-cd hardware/qcom-caf/bengal/display && git pull && cd ../../../..
-cd hardware/qcom-caf/bengal/gps && git pull && cd ../../../..
-cd hardware/qcom-caf/bengal/media && git pull && cd ../../../..
 cd device/xiaomi/sm6225-common && git pull && cd ../../..
 cd kernel/xiaomi/sm6225  && git pull && cd ../../..
 cd vendor/xiaomi/spes  && git pull && cd ../../..
 cd vendor/xiaomi/sm6225-common  && git pull && cd ../../..
 cd hardware/xiaomi && git pull && cd ../..
-#cd hardware/st/nfc && git pull && cd ../../../
-#cd external/wpa_supplicant_8 && git pull && cd ../..
 
 echo -e "${GREEN} Done updating repos for spes ${CLEAR}"
