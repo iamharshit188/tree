@@ -21,7 +21,7 @@ git clone https://github.com/PixelExperience-Staging/hardware_qcom-caf_bengal_au
 git clone https://github.com/PixelExperience-Staging/hardware_qcom-caf_bengal_display.git hardware/qcom-caf/bengal/display -b fourteen
 git clone https://github.com/PixelExperience-Staging/hardware_qcom-caf_bengal_gps.git hardware/qcom-caf/bengal/gps -b fourteen
 git clone https://github.com/PixelExperience-Staging/hardware_qcom-caf_bengal_media.git hardware/qcom-caf/bengal/media -b fourteen
-git clone https://github.com/PixelExperience-Devices/device_xiaomi_sm6225-common.git device/xiaomi/sm6225-common -b fourteen
+git clone https://github.com/iamharshit188/device_xiaomi_sm6225-common.git device/xiaomi/sm6225-common -b fourteen
 git clone https://github.com/PixelExperience-Devices/kernel_xiaomi_sm6225.git kernel/xiaomi/sm6225  -b fourteen
 git clone https://gitlab.pixelexperience.org/android/vendor-blobs/vendor_xiaomi_spes.git vendor/xiaomi/spes  -b fourteen
 git clone https://gitlab.pixelexperience.org/android/vendor-blobs/vendor_xiaomi_sm6225-common.git vendor/xiaomi/sm6225-common  -b fourteen
