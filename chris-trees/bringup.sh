@@ -25,7 +25,7 @@ git clone https://github.com/PixelExperience-Devices/device_xiaomi_sm6225-common
 git clone https://github.com/PixelExperience-Devices/kernel_xiaomi_sm6225.git kernel/xiaomi/sm6225  -b fourteen
 git clone https://gitlab.pixelexperience.org/android/vendor-blobs/vendor_xiaomi_spes.git vendor/xiaomi/spes  -b fourteen
 git clone https://gitlab.pixelexperience.org/android/vendor-blobs/vendor_xiaomi_sm6225-common.git vendor/xiaomi/sm6225-common  -b fourteen
-git clone https://github.com/PixelOS-AOSP/hardware_xiaomi hardware/xiaomi -b fourteen
+git clone https://github.com/PixelExperience/hardware_xiaomi hardware/xiaomi -b fourteen
 # git clone https://github.com/AOSPA/android_external_wpa_supplicant_8.git external/wpa_supplicant_8 -b uvite
 # git clone https://github.com/AOSPA/android_device_xiaomi_sepolicy device/xiaomi/sepolicy -b uvite
 
