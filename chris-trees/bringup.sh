@@ -26,4 +26,6 @@ git clone https://gitlab.pixelexperience.org/android/vendor-blobs/vendor_xiaomi_
 git clone https://gitlab.pixelexperience.org/android/vendor-blobs/vendor_xiaomi_sm6225-common.git vendor/xiaomi/sm6225-common  -b fourteen
 # git clone https://github.com/AOSPA/android_device_xiaomi_sepolicy device/xiaomi/sepolicy -b uvite
 
+rm hardware/custom/interfaces/health/aidl/default/Android.bp
+
 echo -e "${GREEN} Done cloning repos for spes ${CLEAR}"
