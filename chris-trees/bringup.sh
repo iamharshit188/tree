@@ -31,9 +31,9 @@ git clone https://github.com/AOSPA/android_external_wpa_supplicant_8 external/wp
 
 cd external/wpa_supplicant_8 
 echo -e "${GREEN} Patching WiFi for spes ${CLEAR}"
-for patch in $SCRIPT_DIR/patches/wpa_supplicant_8/*.patch ; do
+for patch in $SCRIPT_DIR/patches/wpa_supplicant_8/* ; do
     echo -e "${GREEN} Applying patch ${patch} ${CLEAR}"
-    git apply $SCRIPT_DIR/patches/wpa_supplicant_8/$patch
+    git apply $patch
 done
 cd ../..
 
