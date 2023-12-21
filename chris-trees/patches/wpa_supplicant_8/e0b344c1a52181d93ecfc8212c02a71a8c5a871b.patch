@@ -1,0 +1,24 @@
+From e0b344c1a52181d93ecfc8212c02a71a8c5a871b Mon Sep 17 00:00:00 2001
+From: chrisl7 <wandersonrodriguesf1@gmail.com>
+Date: Tue, 14 Nov 2023 16:52:35 +0000
+Subject: [PATCH] wpa: hs20: Remove Wno-error-deprecated-declarations L_CFLAGS
+
+[1] - Fix Build
+
+Signed-off-by: chrisl7 <wandersonrodriguesf1@gmail.com>
+---
+ hs20/client/Android.mk | 1 -
+ 1 file changed, 1 deletion(-)
+
+diff --git a/hs20/client/Android.mk b/hs20/client/Android.mk
+index 669829ef2..e1298b834 100644
+--- a/hs20/client/Android.mk
++++ b/hs20/client/Android.mk
+@@ -63,7 +63,6 @@ L_CFLAGS += -Wno-unused-parameter
+ ifeq ($(shell test $(PLATFORM_VERSION_LAST_STABLE) -ge 8 ; echo $$?), 0)
+ L_CFLAGS += -DCONFIG_ANDROID_LOG
+ L_CFLAGS += -DANDROID_LOG_NAME='"hs20-osu-client"'
+-L_CFLAGS += -Wno-error-deprecated-declarations
+ L_CFLAGS += -Wno-unused-variable
+ endif
+ 

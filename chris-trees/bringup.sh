@@ -4,6 +4,8 @@ RED="\e[31m"
 GREEN="\e[32m"
 CLEAR="\e[0m"
 
+SCRIPT_DIR=$(dirname $0)
+
 echo -e "${GREEN} Cloning repos for spes ${CLEAR}"
 
 echo -e "${RED} WARNING! ONLY TO BE RUN FROM A ANDROID WORKING DIRECTORY. THIS SCRIPT USES RELATIVE PATHS ${CLEAR}"
@@ -26,6 +28,10 @@ git clone https://github.com/PixelExperience-Devices/kernel_xiaomi_sm6225.git ke
 git clone https://gitlab.pixelexperience.org/android/vendor-blobs/vendor_xiaomi_spes.git vendor/xiaomi/spes  -b fourteen
 git clone https://gitlab.pixelexperience.org/android/vendor-blobs/vendor_xiaomi_sm6225-common.git vendor/xiaomi/sm6225-common  -b fourteen
 git clone https://github.com/AOSPA/android_external_wpa_supplicant_8 external/wpa_supplicant_8 -b uvite
+cd external/wpa_supplicant_8 
+echo -e "${GREEN} Patching WiFi for spes ${CLEAR}"
+git apply $SCRIPT_DIR/patches/wpa_supplicant_8/*.patch
+cd ../..
 # git clone https://github.com/AOSPA/android_device_xiaomi_sepolicy device/xiaomi/sepolicy -b uvite
 
 rm hardware/custom/interfaces/health/aidl/default/Android.bp
