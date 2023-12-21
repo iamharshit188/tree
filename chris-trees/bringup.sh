@@ -6,6 +6,8 @@ CLEAR="\e[0m"
 
 SCRIPT_DIR=$(dirname $0)
 
+echo $SCRIPT_DIR
+
 echo -e "${GREEN} Cloning repos for spes ${CLEAR}"
 
 echo -e "${RED} WARNING! ONLY TO BE RUN FROM A ANDROID WORKING DIRECTORY. THIS SCRIPT USES RELATIVE PATHS ${CLEAR}"
@@ -31,9 +33,9 @@ git clone https://github.com/AOSPA/android_external_wpa_supplicant_8 external/wp
 
 cd external/wpa_supplicant_8 
 echo -e "${GREEN} Patching WiFi for spes ${CLEAR}"
-for patch in $SCRIPT_DIR/patches/wpa_supplicant_8/* ; do
-    echo -e "${GREEN} Applying patch ${patch} ${CLEAR}"
-    git apply $patch
+for FILE in $SCRIPT_DIR/patches/wpa_supplicant_8/*; do 
+    echo -e "${GREEN} Applying patch ${FILE} ${CLEAR}"
+    git apply $FILE
 done
 cd ../..
 
