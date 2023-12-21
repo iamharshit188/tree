@@ -24,7 +24,7 @@ git clone https://gitlab.pixelexperience.org/android/vendor-blobs/vendor_qcom_co
 git clone https://github.com/PixelExperience-Staging/vendor_qcom_opensource_commonsys-intf_bluetooth.git vendor/qcom/opensource/commonsys-intf/bluetooth -b fourteen
 git clone https://github.com/iamharshit188/device_xiaomi_spes-chris.git device/xiaomi/spes -b fourteen-skylineui
 git clone https://github.com/iamharshit188/device_xiaomi_sm6225-common-chris.git device/xiaomi/sm6225-common -b fourteen-skylineui
-git clone https://github.com/PixelExperience-Devices/kernel_xiaomi_sm6225.git kernel/xiaomi/sm6225  -b fourteen
+git clone https://github.com/muralivijay/kernel_xiaomi_sm6225.git kernel/xiaomi/sm6225  -b android-14
 git clone https://gitlab.pixelexperience.org/android/vendor-blobs/vendor_xiaomi_spes.git vendor/xiaomi/spes  -b fourteen
 git clone https://gitlab.pixelexperience.org/android/vendor-blobs/vendor_xiaomi_sm6225-common.git vendor/xiaomi/sm6225-common  -b fourteen
 git clone https://github.com/AOSPA/android_external_wpa_supplicant_8 external/wpa_supplicant_8 -b uvite
