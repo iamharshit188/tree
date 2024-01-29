@@ -27,8 +27,7 @@ git clone https://github.com/iamharshit188/device_xiaomi_sm6225-common-chris.git
 git clone https://github.com/muralivijay/kernel_xiaomi_sm6225.git kernel/xiaomi/sm6225  -b android-14
 git clone https://gitlab.pixelexperience.org/android/vendor-blobs/vendor_xiaomi_spes.git vendor/xiaomi/spes  -b fourteen
 git clone https://gitlab.pixelexperience.org/android/vendor-blobs/vendor_xiaomi_sm6225-common.git vendor/xiaomi/sm6225-common  -b fourteen
-git clone https://github.com/AOSPA/android_external_wpa_supplicant_8 external/wpa_supplicant_8 -b uvite
-
+git clone https://github.com/TheMatheusDev/external_wpa_supplicant_8 external/wpa_supplicant_8 -b uvite
 cd external/wpa_supplicant_8 
 echo -e "${GREEN} Patching WiFi for spes ${CLEAR}"
 for FILE in $(ls ../../$SCRIPT_DIR/patches/wpa_supplicant_8/*); do 
